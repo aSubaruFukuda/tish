@@ -12,3 +12,10 @@ $(PROGRAM):$(OBJS)
 clean:
 	rm $(PROGRAM)
 
+doc:
+	doxygen
+
+show_doc:
+	doxygen
+	google-chrome html/index.html
+
