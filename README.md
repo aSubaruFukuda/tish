@@ -20,3 +20,7 @@ $ ./tish
 > <Ctrl>d
 ```
 
+## document
+
+make show_doc
+
